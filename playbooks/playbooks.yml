@@ -5,3 +5,4 @@
   tasks:
           - name: Instalar o apache
             apt: name=apache2 update_cache=yes state=present
+# Linha Alteracao Simples
