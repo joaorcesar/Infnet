@@ -1,0 +1,7 @@
+# Meu primeiro playbook:
+#
+- name: Instalação do Apache
+  hosts: all
+  tasks:
+          - name: Instalar o apache
+            apt: name=apache2 update_cache=yes state=present
